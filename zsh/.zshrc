@@ -3,7 +3,9 @@ ZINIT_HOME="$ZSH_CONFIG/zinit"
 
 export PATH="$HOME/.local/bin:$PATH"
 
-# Zinit plugin manager
-source "$ZINIT_HOME/zinit.zsh"
-source "$ZSH_CONFIG/plugins.zsh"
+# Zsh completion
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+autoload -Uz compinit && compinit
 
+# Zinit plugin manager
+source "$ZSH_CONFIG/zinit.zsh"

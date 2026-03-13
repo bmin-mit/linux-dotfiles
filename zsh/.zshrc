@@ -1,1 +1,1 @@
-/home/bmmit/.zprezto/runcoms/zshrc
+source "${XDG_CONFIG_HOME}/zsh/.zprezto/init.zsh"

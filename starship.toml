@@ -1,2 +1,6 @@
 [container]
 disabled = true
+
+[memory_usage]
+disabled = false
+threshold = 50

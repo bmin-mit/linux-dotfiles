@@ -5,6 +5,7 @@ ZOXIDE_CMD_OVERRIDE=cd
 # Oh-my-zsh plugins
 zi snippet OMZP::conda
 zi snippet OMZP::docker
+zi snippet OMZP::docker-compose
 zi snippet OMZP::dotnet
 zi snippet OMZP::git
 zi snippet OMZP::gh
@@ -21,6 +22,7 @@ zi light ntnyq/omz-plugin-bun
 zi light z-shell/zsh-eza
 zi light zsh-users/zsh-autosuggestions
 zi light zsh-users/zsh-syntax-highlighting
+zi light MichaelAquilina/zsh-you-should-use
 zi ice depth=1
 zi light jeffreytse/zsh-vi-mode
 

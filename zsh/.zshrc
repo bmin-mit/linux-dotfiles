@@ -12,8 +12,9 @@ autoload -Uz compinit && compinit
 # Zinit plugin manager
 source "$ZSH_CONFIG/zinit.zsh"
 
-# Custom aliases
+# Configurations
 source "$ZSH_CONFIG/alias.zsh"
+source "$ZSH_CONFIG/configs.zsh"
 
 # Homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
